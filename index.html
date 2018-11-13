@@ -9,8 +9,7 @@
 
     <!-- CDNS -->
 
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <!-- Styles + Scripts -->
 
@@ -22,55 +21,77 @@
 <body>
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top ">
-        <a class="navbar-brand" href="#">Home</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  
-    <span class="navbar-toggler-icon"></span>
-</button>
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav mr-4">
-                <li class="nav-item">
-                    <a class="nav-link" data-value="about" href="#">about</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " data-value="work" href="#">work</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " data-value="resume" href="#">resume</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " data-value="contact" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <!-- navbar wrapper -->
+    <div class="container col-lg-6 col-sm-12">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-end">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#linkedIn">linkedin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
-    <div class="row hero-container">
-        <div class="col-12 name-title align-self-center">
-            <h1 class="display-6">Hi. I'm Evan.</h1>
-            <p class="lead job-title">UI/UX Designer</p>
-            <p>Lorem ipsum dolor amet organic lo-fi fashion axe, portland locavore paleo cray adaptogen fixie taiyaki tumeric.</p>
+    <!-- Header Section -->
+    <div id="home" class="container header-main">
+        <div class="row">
+            <div class="col">
+                <h1 class="header d-flex justify-content-end">IMG PLACE</h1>
+            </div>
+            <div class="col">
+                <h1 class="d-flex justify-content-start">Hi. I'm Evan.</h1>
+                <p class="d-flex justify-content-start">I'm a <span class="rotate">&nbsp;creative.</span></p>
+                <p class="d-flex justify-content-start">Lorem ipsum dolor amet organic lo-fi fashion axe, portland locavore paleo cray adaptogen fixie taiyaki tumeric. Lorem ipsum dolor amet organic lo-fi fashion axe, portland locavore paleo cray adaptogen fixie taiyaki tumeric. Lorem ipsum
+                    dolor amet organic lo-fi fashion axe, portland locavore paleo cray adaptogen fixie taiyaki tumeric. Lorem ipsum dolor amet organic lo-fi fashion axe, portland locavore paleo cray adaptogen fixie taiyaki tumeric.</p>
+            </div>
         </div>
     </div>
 
-    <div class="container-fluid row">
-        <div class="col-12 align-self-center about-header">
-            <p class="display-6">about</p>
-        </div>
+    <!-- About Section -->
+    <div id="about">
+        <h2>about</h2>
+        <p>Lorem ipsum dolor amet organic lo-fi fashion axe, portland locavore paleo cray adaptogen fixie taiyaki tumeric.Lorem ipsum dolor amet organic lo-fi fashion axe, portland locavore paleo cray adaptogen fixie taiyaki tumeric.Lorem ipsum dolor amet
+            organic lo-fi fashion axe, portland locavore paleo cray adaptogen fixie taiyaki tumeric.Lorem ipsum dolor amet organic lo-fi fashion axe, portland locavore paleo cray adaptogen fixie taiyaki tumeric.</p>
+    </div>
+
+    <!-- Work Section -->
+    <div id="work">
+        <h2>work</h2>
+    </div>
+
+    <!-- Resume Section -->
+    <div id="linkedIn">
+        <h2>resume</h2>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact">
+        <h2>contact</h2>
     </div>
 
 
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script>
-        window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')
-    </script>
-    <script src="../../assets/js/vendor/popper.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 
 </html>

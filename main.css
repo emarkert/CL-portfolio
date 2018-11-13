@@ -1,12 +1,9 @@
-body, {
-    padding-top: 5rem;
+.header-main {
+    margin-top: 75px;
 }
 
-.name-title, .about-header {
-    background-color: aquamarine;
-    text-align: center;
-}
+.title {}
 
-.intro-p {
-    background-color: azure;
-}
+.shorAbout {}
+
+.header {}
