@@ -21,6 +21,15 @@ h6 {
     display: inline-block;
 }
 
+.portrait {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
+    margin: 0px;
+    padding: 0px;
+}
+
 h2::after {
     content: "";
     position: absolute;
