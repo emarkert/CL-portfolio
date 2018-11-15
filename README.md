@@ -2,7 +2,7 @@
 
 ## Description
 ```
-A brief description of your project
+This is a simple portfolio layout that will hopefully grow with new projects that I tackle for independent learning as well as new projects that I work at in my new career. 
 
 ```
 

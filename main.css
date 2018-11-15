@@ -4,9 +4,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 /* Body Font Because I Don't Want To Mess with the SASS of Bootstrap <3 */
-
-.body-font {
+.body {
     font-family: 'Roboto', sans-serif;
+}
+
+
+.rotateText {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: aquamarine;
 }
 
 h1,
