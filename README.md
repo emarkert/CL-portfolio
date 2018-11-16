@@ -12,10 +12,14 @@ This is a simple portfolio layout that will hopefully grow with new projects tha
 ```
 The class(es) I created are:
 
-1. class name ex( .main-info-section )
-.. what class does, ex( adds padding & changes background color of .main-info-section )
+1. .portrait
+    This class changes the portrait image on index so that it is a circle and fits well in the col
 
-2.
+2. h1, h2::after 
+    These classes add the aquamarine background on headers for the color pop on the page. 
+
+3. .my-name
+    Adds a better font-weight to the headline. 
 
 ```
 
@@ -23,7 +27,6 @@ The class(es) I created are:
 
 ## Custom JavaScript Functions
 ```
-The javascript functions I created are:
+The javascript functions I created 
 
-1. function name ex( animate() )
-.. what function does ex( animate() is used to move the elements in the info div across the screen)
+1. JQuery function that has an array of "titles" that are rotated and appended to the span "rotate" on index.html

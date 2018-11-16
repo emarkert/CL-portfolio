@@ -8,7 +8,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
 .rotateText {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
@@ -33,6 +32,7 @@ h6 {
     max-width: 200px;
     height: auto;
     border-radius: 50%;
+    margin-bottom: 50px;
 }
 
 h1::after,
@@ -64,14 +64,24 @@ h2::after {
     padding: 0px 50px;
 }
 
+
+/* LINK STYLING */ 
+
+a {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: aquamarine;
+    font-weight: 600;
+}
+
 a:hover {
-    border-bottom: 1px solid aquamarine;
+    color: aquamarine;
 }
 
 .my-name {
     font-family: 'Domine', serif;
     font-weight: 900;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .underline {
@@ -79,15 +89,17 @@ a:hover {
     text-decoration-color: aquamarine;
 }
 
+.container {
+    margin-bottom: 100px;
+}
 
-/* .title {}
+#work, #about, #contact {
+    margin-bottom: 100px;
+}
 
-.shorAbout {}
-
-.header {}
-
-*/
-
+.row {
+    margin-bottom: 50px;
+}
 
 /* MEDIA QUERIES */
 
